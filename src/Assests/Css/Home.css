@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+/* font-family: 'Mochiy Pop One', sans-serif; */
+/* font-family: 'Cormorant SC', serif; */
+/* Home_head */
+.Free_Shipping {
+  background-color: var(--secondary-color);
+  font-family: "Cormorant SC", serif;
+  padding: 0.5rem;
+}
+.Home_head {
+  background-image: linear-gradient(to right bottom, #8c706c7d, #8e736f80),
+    url("../Img/wallpaper4.jpeg");
+  height: 110vh;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.Home_head_2 {
+  background-image: linear-gradient(to right bottom, #8c706c7d, #8e736f80),
+    url("../Img/wallpaper\ 1.jpeg");
+  height: 110vh;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.Home_nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.Home_nav_Scroll {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.Home_nav_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Home_nav_top_menu {
+  display: flex;
+  align-items: center;
+}
+.Home_nav_top_icon {
+  margin-right: 20px !important;
+  font-size: 30px !important;
+  color: var(--white) !important;
+}
+.Home_nav_top_icon_scroll {
+  margin-right: 20px !important;
+  font-size: 30px !important;
+  color: var(--black) !important;
+}
+.Home_nav_top_offer {
+  font-family: "Cormorant SC", serif;
+
+  color: var(--white);
+}
+.Home_nav_top_offer_scroll {
+  font-family: "Cormorant SC", serif;
+
+  color: var(--black);
+}
+.LOGO {
+  font-size: 40px;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: var(--white);
+}
+.LOGO_scroll {
+  font-size: 40px;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: var(--gold);
+}
+.Home_nav_top_menu_right {
+  display: flex;
+  align-items: center;
+}
+.Home_nav_top_menu_right_scroll {
+  display: flex;
+  align-items: center;
+}
+.Home_nav_top_right_icon {
+  margin-left: 20px !important;
+  font-size: 30px !important;
+  color: var(--white) !important;
+}
+.Home_nav_top_right_icon_scroll {
+  margin-left: 20px !important;
+  font-size: 30px !important;
+  color: var(--black) !important;
+}
+
+.Home_nav_top_badge_icon {
+  margin-left: 20px !important;
+  color: var(--white) !important;
+}
+.Home_nav_top_badge_icon_scroll {
+  margin-left: 20px !important;
+  color: var(--black) !important;
+}
+
+.Home_nav_top_menu_right input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  padding: 10px 30px;
+  font-family: "Cormorant SC", serif;
+
+  color: var(--white) !important;
+}
+.Home_nav_top_menu_right input::placeholder {
+  color: var(--white) !important;
+  font-family: "Cormorant SC", serif;
+}
+.Home_nav_top_menu_right_scroll input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--black);
+  padding: 10px 30px;
+  font-family: "Cormorant SC", serif;
+
+  color: var(--black) !important;
+}
+.Home_nav_top_menu_right_scroll input::placeholder {
+  color: var(--black) !important;
+  font-family: "Cormorant SC", serif;
+}
+.MuiBadge-badge {
+  background-color: #555 !important;
+}
+.Home_nav_bottom {
+  padding: 30px 100px;
+}
+.Home_nav_botton_ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Home_nav_botton_ul li {
+  font-family: "Cormorant SC", serif;
+  color: var(--secondary-color);
+  font-weight: bold !important;
+  letter-spacing: 3px;
+}
+.Home_nav_botton_ul li:hover {
+  cursor: pointer;
+}
+.Home_head_content {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -25%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation: moveInBottom 2s;
+  animation-fill-mode: backwards;
+  animation-delay: 0.5;
+}
+/* animations */
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0%);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: translate(-50%, -25%);
+  }
+}
+
+.Home_head_content p {
+  margin: 30px 0;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  font-family: "Cormorant SC", serif;
+  color: var(--white);
+  font-weight: bold !important;
+}
+.Home_head_content h1 {
+  font-family: "Mochiy Pop One", sans-serif !important;
+  color: var(--white);
+  letter-spacing: 4px;
+}
+.Home_head_content button {
+  background-color: transparent;
+  font-family: "Cormorant SC", serif;
+  letter-spacing: 3px;
+  padding: 20px 40px;
+  font-weight: bold !important;
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+/* Home_about */
+.Home_about_container {
+  position: relative;
+}
+.Home_about {
+  margin-top: 40px;
+  background-image: linear-gradient(to right bottom, #7b65627d, #8e736f80),
+    url("../Img/wallpaper12.jpeg");
+  /* transform: scaleX(-1); */
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2),
+    0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home_About_content {
+  position: absolute;
+  top: 60%;
+  right: 0%;
+  transform: translate(-10%, -50%);
+}
+.Home_About_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+}
+.Home_About_content p {
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  word-spacing: 5px;
+}
+.Home_About_content h1 {
+  margin: 30px 0;
+  font-family: "Mochiy Pop One", sans-serif;
+  word-spacing: 10px;
+}
+.Home_About_content-head {
+  border-bottom: 1px solid var(--primary-color);
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.Home_about_content-desc {
+  margin-bottom: 30px;
+}
+.Home_About_content button {
+  padding: 13px 40px;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-weight: 700;
+  font-family: "Cormorant SC", serif;
+}
+
+@media (max-width: 500px) {
+  /* Free_Shipping */
+  .Free_Shipping {
+    font-size: 10px;
+  }
+}
